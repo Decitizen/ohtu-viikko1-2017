@@ -52,7 +52,7 @@ public class VarastoTest {
 
         double saatuMaara = varasto.otaVarastosta(2);
 
-        assertEquals(2, saatuMaara, vertailuTarkkuus);
+        assertEquals(3, saatuMaara, vertailuTarkkuus);
     }
 
     @Test
@@ -64,5 +64,8 @@ public class VarastoTest {
         // varastossa pitäisi olla tilaa 10 - 8 + 2 eli 4
         assertEquals(4, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
+    
+    @Test
+    
 
 }
